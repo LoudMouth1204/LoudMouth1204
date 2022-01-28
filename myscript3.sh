@@ -1,0 +1,6 @@
+#!/bin/bash 
+echo -e "This program copies a file to the stuff directory.\n" 
+echo -e "Which file would you like to copy? -->\c" 
+read FILENAME 
+mkdir / stuff || echo "The /stuff directory could not be created." 
+cp - SFILENAME / stuff && echo "$FILENAME was successfully copied to / stuff
